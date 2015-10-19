@@ -16,7 +16,7 @@ const divStyle = {
 @connect(state => ({
   entitylist: state.entitylist
 }))
-export default class FriendListApp extends Component {
+export default class MainApp extends Component {
 
   render() {
     const {entitylist: {entitiesById}, dispatch} = this.props;
